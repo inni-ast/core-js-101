@@ -1,5 +1,5 @@
 # Core JS 101
-
+//**********npm test ./test/06* - run test
 :warning: **Please note that you mustn't open PRs that contains the answers to this repo!**
 
 However, PRs with the fixes or proposals are welcomed!
@@ -47,7 +47,7 @@ The task is to implement functions on different Core JS topics. There are eight 
 
     Remove the throwing error line from function body:
     ```javascript
-        throw new Error('Not implemented'); 
+        throw new Error('Not implemented');
     ```
     Implement the function by any way and verify your solution by running tests until the failed test become passed (green).
 8. Run `npm test` in command line. If everything is OK you can try to resolve the next task.
@@ -76,7 +76,7 @@ https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 - Finally, you need to apply linter's autofix feature in order to fix all linebreaks that was already changed to "CLRF":
 ```
 $ npm run lint -- --fix
-``` 
+```
 
 ___
 The task based on https://github.com/rolling-scopes-school/js-assignments.
